@@ -1,9 +1,13 @@
 
 // Diffrent term for diffrent inputs    
 
+// NESTED LOOPS
 // if you see nested loops we use multiplicaiton
 
 // SO O(n)^2  // n^2 so we use multiplication
+// so this horribly inefficient or slow algorithm is called quadratic time
+
+
 
 //Log all pairs of array
 
