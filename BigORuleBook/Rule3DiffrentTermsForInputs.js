@@ -1,7 +1,9 @@
 
 // Diffrent term for diffrent inputs    
 
+// if you see nested loops we use multiplicaiton
 
+// SO O(n)^2  // n^2 so we use multiplication
 
 //Log all pairs of array
 
