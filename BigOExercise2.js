@@ -19,3 +19,7 @@ function anotherFunChallenge(input) {
 
 
 // Big O (4 + 5n)
+// this function turns into O(n)
+
+// RULE BOOK
+//  RULE #1 WORST CASE SCENARIO
