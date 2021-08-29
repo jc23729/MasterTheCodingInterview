@@ -23,3 +23,7 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
 // Whats the big O of this function?
 
 // Big O(1 + n/2 + 100) = Big O(n)
+// Big O(n/2 + 101) = Big O(n)
+// Big O(1 + n) = Big O(n)
+// Big O(n) = Big O(n)
+
