@@ -5,5 +5,13 @@
 // Output: [1, 3, 2];
 
 
-Input: root = [];
-Output: [];
+// Input: root = [];
+// Output: [];
+
+
+// Input: root = [1];
+// Output: [1];
+
+
+// Input: root = [1, 2];
+// Output: [2, 1];
