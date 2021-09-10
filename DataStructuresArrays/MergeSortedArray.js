@@ -9,6 +9,7 @@ function mergeSortedArrays(array1, array2) {
 
   //We should actually move these 2 if statements to line 2 so that we do the checks before we do assignments in line 3 and 4!
     // Check input
+    // if first input is empty return second input
   if (array1.length === 0) {
     return array2;
   }
