@@ -1,6 +1,8 @@
 function mergeSortedArrays(array1, array2) {
   const mergedArray = [];
+  // grab our first item in the array
   let array1Item = array1[0];
+  //    array2Item  grabs the 3 in the second array mergeSortedArrays([0, 3, 4, 31], [3, 4, 6, 30]);
   let array2Item = array2[0];
   let i = 1;
   let j = 1;
