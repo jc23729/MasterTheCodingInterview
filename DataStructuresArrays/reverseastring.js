@@ -1,3 +1,6 @@
+// Create a function that reverses a string
+// The string Mike should return ekiM
+
 function reverse(str) {
   if (!str || typeof str != "string" || str.length < 2) return str;
 
@@ -8,3 +11,14 @@ function reverse(str) {
   }
   return backwards.join("");
 }
+
+function reverse2(str) {
+  //check for valid input
+  return str.split("").reverse().join("");
+}
+
+const reverse3 = (str) => [...str].reverse().join("");
+
+reverse("Timbits Hi");
+reverse("Timbits Hi");
+reverse3("Timbits Hi");
