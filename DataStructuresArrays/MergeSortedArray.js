@@ -8,6 +8,7 @@ function mergeSortedArrays(array1, array2) {
   let j = 1;
 
   //We should actually move these 2 if statements to line 2 so that we do the checks before we do assignments in line 3 and 4!
+    // Check input
   if (array1.length === 0) {
     return array2;
   }
