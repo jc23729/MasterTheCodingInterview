@@ -63,10 +63,13 @@ class Node {
          let temp = this.head
         //  we want to move head over to the next item
          this.head = this.head.next
+        //  so we decrement backwards 
          this.length--
+        //  and when the head an tail meet, we have the tail equl to null
          if(this.length === 0) {
              this.tail = null
          }
+        //  will break the loop if we have an empty linked list
          temp.next = null
          return temp
      }
