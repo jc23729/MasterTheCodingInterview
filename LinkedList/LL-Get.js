@@ -70,8 +70,11 @@ class Node {
      }
 //  get index
      get(index) {
-         if(index < 0 || index >= this.length) return undefined
+        //  we write this if statement for anything thats out of the acceptable range
+         if (index < 0 || index >= this.length) return undefined
+        //  we have to start at the head or the begining of the list
          let temp = this.head
+        //  it iterates through the list until it reaches the index
          for(let i = 0; i < index; i++) {
              temp = temp.next
          }
