@@ -107,8 +107,9 @@ class Node {
          if (index === 0) return this.shift()
          //   remove tail
           if(index === this.length - 1) return this.pop()
-        // const before  
-          const before = this.get(index - 1)
+        // const before = this.get(index - 1) the index that is before the one we want to remove
+         const before = this.get(index - 1)
+        //  const temp = before.next the node that we want to remove
           const temp = before.next
   
           before.next = temp.next
