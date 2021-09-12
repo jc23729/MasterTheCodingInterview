@@ -77,11 +77,14 @@ class Node {
          }
          return temp
      }
- 
+//  Set 
      set(index, value) {
+        // point to the appropriate node, which will make it equal to undefined or if its pointed to a node
          let temp = this.get(index)
-         if(temp) {
+         if (temp) {
+            //  if the temp has a value change the value
              temp.value = value
+            //  we return true to show we were able to change that value
              return true
          }
          return false
