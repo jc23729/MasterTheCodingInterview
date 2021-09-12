@@ -58,8 +58,10 @@ class Node {
      }
  
      shift() {
+        //  if we have an empty linked list
          if(!this.head) return undefined
          let temp = this.head
+        //  we want to move head over to the next item
          this.head = this.head.next
          this.length--
          if(this.length === 0) {
