@@ -7,6 +7,7 @@ class Linkedlist extends Component {
     }
 }
 
+let myLink = new Linkedlist(4)
 
 // create new Node
 // create new Node
