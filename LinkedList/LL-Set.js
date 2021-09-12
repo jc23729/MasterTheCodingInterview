@@ -68,22 +68,28 @@ class Node {
          temp.next = null
          return temp
      }
-//  get index
+ 
      get(index) {
-        //  we write this if statement for anything thats out of the range or bounds
-         if (index < 0 || index >= this.length) return undefined
-        //  we have to start at the head or the begining of the list
+         if(index < 0 || index >= this.length) return undefined
          let temp = this.head
-        //  it iterates through the list until it reaches the index
          for(let i = 0; i < index; i++) {
              temp = temp.next
          }
          return temp
      }
+ 
+     set(index, value) {
+         let temp = this.get(index)
+         if(temp) {
+             temp.value = value
+             return true
+         }
+         return false
+     }
+ 
  }
  
- let myLinkedList = new LinkedList(0)
- myLinkedList.push(1)
- myLinkedList.push(2)
+ let myLinkedList = new LinkedList(11)
  myLinkedList.push(3)
- 
+ myLinkedList.push(23)
+ myLinkedList.push(7)
