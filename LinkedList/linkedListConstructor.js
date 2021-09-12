@@ -1,0 +1,3 @@
+class Linkedlist extends Component {
+    
+}
