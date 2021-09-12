@@ -12,7 +12,7 @@ class Node {
          this.tail = this.head
          this.length = 1
      }
- 
+//  PUSH    
      push(value) {
          const newNode = new Node(value)
          if (!this.head) {
@@ -25,7 +25,7 @@ class Node {
          this.length++
          return this
      }
- 
+//  POP
      pop() {
          if(!this.head) return undefined
          let temp = this.head
